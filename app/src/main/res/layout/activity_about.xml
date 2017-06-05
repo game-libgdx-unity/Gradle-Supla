@@ -33,16 +33,16 @@
         android:contentDescription="logo" />
 
     <TextView
+        android:id="@+id/about_project_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menubar_title"
-        android:id="@+id/about_project_name"
-        android:gravity="center_horizontal"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:textSize="30sp"
-        android:textColor="@android:color/black" />
+        android:gravity="center_horizontal"
+        android:text="@string/menubar_title"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
